@@ -7,9 +7,8 @@ def initialize(word)
 end
 
 def match(array)
-new_array = []
-array.detect do |i|
-  i.chars.sort == word.chars.sort ? new_array << i : nil
+array.find do |i|
+  i.chars.sort == word.chars.sort ?  : nil
  end
 end
 end
