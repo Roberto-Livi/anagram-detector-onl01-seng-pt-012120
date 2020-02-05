@@ -7,7 +7,7 @@ def initialize(word)
 end
 
 def match(array)
-array.each do |i|
+array.detect do |i|
   i.chars.sort == word.chars.sort ? i : nil
  end
 end
