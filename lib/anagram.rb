@@ -8,7 +8,7 @@ end
 
 def match(array)
   array.find do |i|
-  i.chars.sort == word.chars.sort ? i : []
+  i.chars.sort == word.chars.sort ? i : "nothing"
  end
 end
 end
