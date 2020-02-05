@@ -10,6 +10,7 @@ def match(array)
   array.collect do |i|
   if i.chars.sort == word.chars.sort
   i
+end
  end
 end
 end
